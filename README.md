@@ -6,7 +6,7 @@ Preview: [https://vite-plugin-ssr-cloudflare-pages.pages.dev](https://vite-plugi
 
 ### Pages Setup
 
-When adding your site to Cloudflare Pages, make sure to set the **Build command** to `npm run build`, and the **Build output directory** to `/dist/assets`. 
+When adding your site to Cloudflare Pages, make sure to set the **Build command** to `npm run build`, and the **Build output directory** to `/dist/client/`. 
 We run a script to bundle any server-side code into a [custom worker](https://developers.cloudflare.com/pages/platform/functions#advanced-mode), so Pages only needs to host the client-side (static) assets.
 
 ### Custom Worker
